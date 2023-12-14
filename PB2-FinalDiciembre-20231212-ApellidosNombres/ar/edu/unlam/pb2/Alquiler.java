@@ -9,5 +9,33 @@ public class Alquiler {
 	private Double senia;
 
 	public Alquiler(Horario horario, Persona responsable, Double senia) {
+		this.horario = horario;
+		this.responsable = responsable;
+		this.senia = senia;
 	}
+
+	public Horario getHorario() {
+		return horario;
+	}
+
+	public void setHorario(Horario horario) {
+		this.horario = horario;
+	}
+
+	public Persona getResponsable() {
+		return responsable;
+	}
+
+	public void setResponsable(Persona responsable) {
+		this.responsable = responsable;
+	}
+
+	public Double getSenia() {
+		return senia;
+	}
+
+	public void setSenia(Double senia) {
+		this.senia = senia;
+	}
+
 }
